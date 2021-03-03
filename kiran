@@ -1,3 +1,41 @@
-hii 
-hello
-this is kiran
+#include <stdio.h>
+
+int main()
+
+{ //start
+
+f();
+
+printf("Bye");
+
+return 0;
+
+//stop
+
+}
+
+void f(){
+
+f2();
+
+printf("Two");
+
+f3();
+
+}
+
+void f2(){
+
+f3();
+
+exit(3);
+
+printf("Three");
+
+}
+
+void f3(){
+
+printf("One");
+
+}
